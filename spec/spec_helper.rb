@@ -32,6 +32,8 @@ RSpec.configure do |config|
   end
 
 require 'capybara/rspec'
+require_relative '../app/app.rb'
+Capybara.app = BookmarkManager
 
   # rspec-mocks config goes here. You can use an alternate test double
   # library (such as bogus or mocha) by changing the `mock_with` option here.
