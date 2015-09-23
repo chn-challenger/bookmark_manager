@@ -1,4 +1,6 @@
 require 'data_mapper'
+require 'dotenv'
+Dotenv.load
 # require_relative '.env'
 
 env = 'development'
